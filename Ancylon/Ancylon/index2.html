@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js" defer></script>
+  <script src="js/materialize.js" defer></script>
+  <script src="js/init.js" defer></script>
+  <title>Интернет-магазин Ancylon</title>
+</head>
+<body>
+  <header>
+
+    <nav class="amber accent-3" role="navigation"> <!-- Главное меню -->
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index2.html" class="brand-logo">Ancylon</a>
+
+          <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light" href="#qwerty">Contact us</a></li>
+            <li><a class="waves-effect waves-light" href="Statistic.html">Statistics</a></li>
+            <a class="waves-effect indigo darken-4 btn-large" href="signup.html">Sign up</a> <!-- кнопка в нав -->
+            <a class="waves-effect indigo darken-4 btn-large" href="signin.html">Sign in</a>
+          </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+
+    <div class="amber accent-3">
+    <div class="row">
+      <div class="col s2 m2 l2 amber www">
+
+      </div>
+      <div class="col s8 m8 l8">
+          <form class="center">
+            <div class="input-field search">
+              <input id="search" type="search" required>
+              <label class="label-icon" for="search"><i class="material-icons right">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+      </div>
+      <div class="col s2 m2 l2 amber www">
+
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <div class="row">
+      <h3 class="textRec">Recommendations:</h3>
+  </div>
+
+  <main>
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <p>Sellers</p>  <!-- Чек боксы -->
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"/>
+            <span>Our sellers</span>
+          </label>
+        </div>
+
+        <p>Pointer</p>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for dog</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for cats</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for rodents</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for birds</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for reptiles</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for horses</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for parrot</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for lizards</span>
+          </label>
+        </div>
+
+        <div class="box">
+          <label>
+            <input type="checkbox" class="filled-in"  />
+            <span>products for geese</span>
+          </label>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+        <select class="browser-default left brod"> <!-- сортировка -->
+          <option value="" disabled selected id="select-sort">Choose your option</option>
+          <option value="1">By rating</option>
+          <option value="2">Ascending in price</option>
+          <option value="2">Descending price</option>
+          <option value="3">By popular</option>
+          <option value="3">News</option>
+        </select>
+        <p class="grey-text">price editor</p> <!-- Редактор цены -->
+          <form class="" action="#" >
+            <p class="range-field">
+              <input type="range" id="test5" min="0" max="3000">
+            </p>
+          </form>
+          <div id="test-slider"></div> <!-- UiSlider не роботает -->
+
+      </div>
+      <div class="col s12 m8 l8">
+        <div class="row">
+
+            <div class="col s12 m6 l3"> <!-- 1 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/9.png">
+              </div>
+              <div class="card-content">
+                  <p>Leather jacket: rat</p>
+                  <p>80uah</p>
+                  <p class="green-text">in stock</p>
+              </div>
+              <div class="card-action center">
+                <a href="product.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3"> <!-- 2 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/10.png">
+              </div>
+              <div class="card-content">
+                  <p>Dress: Rat</p>
+                  <p>120uah</p>
+                  <p class="green-text">in stock</p>
+              </div>
+              <div class="card-action center">
+                <a href="product2.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3"> <!-- 3 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/2.png">
+              </div>
+              <div class="card-content">
+                <p>Supreme Costume:Dog</p>
+                <p>1000uah</p>
+                <p class="orange-text">pending</p>
+              </div>
+              <div class="card-action center">
+                <a href="product3.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3"> <!-- 4 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/12.png">
+              </div>
+              <div class="card-content">
+                <p>Beach hat: Parrot</p>
+                <p>30uah</p>
+                <p class="green-text">in stock</p>
+              </div>
+              <div class="card-action center">
+                <a href="product4.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3"> <!-- 5 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/13.png">
+              </div>
+              <div class="card-content">
+                  <p>Coat: Horse</p>
+                  <p>800uah</p>
+                  <p class="green-text">in stock</p>
+              </div>
+              <div class="card-action center">
+                <a href="product5.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3"> <!-- 6 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/14.png">
+              </div>
+              <div class="card-content">
+                  <p>Donald: Goose</p>
+                  <p>131uah</p>
+                  <p class="orange-text">pending</p>
+              </div>
+              <div class="card-action center">
+                <a href="product6.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3"> <!-- 7 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/15.png">
+              </div>
+              <div class="card-content">
+                <p>Winter suit:Lizard</p>
+                <p>110uah</p>
+                <p class="green-text">in stock</p>
+              </div>
+              <div class="card-action center">
+                <a href="product7.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3"> <!-- 8 products-->
+              <div class="card">
+              <div class="card-image">
+                  <img src="img/3.png">
+              </div>
+              <div class="card-content">
+                <p>Elegant costume: Dog</p>
+                <p>160uah</p>
+                <p class="orange-text">pending</p>
+              </div>
+              <div class="card-action center">
+                <a href="product8.html" target="_blank" class="black-text">watch</a>
+              </div>
+              </div>
+            </div>
+
+            <ul class="pagination center"> <!-- пегинатор  -->
+              <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+              <li class="active"><a href="index2.html">1</a></li>
+              <li class="waves-effect"><a href="page2.html">2</a></li>
+              <li class="waves-effect"><a href="page2.html"><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer white" id="qwerty">  <!-- футер  -->
+          <div class="container">
+            <div class="row">
+              <div class="col l3 s12">
+                <h6 class="black-text">Сatalog</h6>
+                <p class="black-text">products for dog</p>
+                <p class="black-text">products for cats</p>
+                <p class="black-text">products for rodents</p>
+                <p class="black-text">goods for birds</p>
+                <p class="black-text">goods for reptiles</p>
+              </div>
+              <div class="col l3 s12">
+                <h6 class="black-text">to clients</h6>
+                <p class="black-text">Delivery</p>
+                <p class="black-text">return</p>
+                <p class="black-text">the blog</p>
+                <p class="black-text">about us</p>
+              </div>
+              <div class="col l3 s12">
+                <h6 class="black-text">Schedule call-center</h6>
+                <p class="black-text">Mon-Fri: 09:00-20:00</p>
+                <p class="black-text">Sat: 09:00-18:00</p>
+                <p class="black-text">Sun: 10:00-17:00</p>
+                <p class="black-text">Public offer agreement</p>
+                <p class="black-text">Privacy Policy</p>
+              </div>
+              <div class="col l3 s12">
+                <h6 class="black-text">Contacts</h6>
+                <p class="black-text">Phone</p>
+                <p class="black-text">+380683427042</p>
+                <p class="black-text">The address</p>
+                <p class="black-text">E-mail</p>
+                <p class="black-text">Info@e-zoo.com.ua</p>
+                <a href="#!"><img class="facebook" src="img/facebook.png" alt=""></a>
+                <a href="#!"><img class="instagram" src="img/instagram.png" alt=""></a>
+                <a href="#!"><img class="MasterCard" src="img/MasterCard.png" alt=""></a>
+                <a href="#!"><img class="visa" src="img/visa.png" alt=""></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="footer-copyright black-text">
+            <div class="container center">
+              Our partners
+              <div class="col l3 s12">
+                <a href="#!"><img class="Meest" src="img/Meest.png" alt=""></a>
+                <a href="#!"><img class="NP" src="img/NewPost.png" alt=""></a>
+                <a href="#!"><img class="UP" src="img/UkrPost.png" alt=""></a>
+                <a href="#!"><img class="Justin" src="img/Justin.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+</body>
+</html>

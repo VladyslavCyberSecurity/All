@@ -1,0 +1,129 @@
+.search{  /* Поиск */
+  border: 3px solid white;
+  background-color: white;
+  height: 48px;
+  width: 100%;
+}
+
+.search2{
+   border: 3px solid gray;
+   height: 50px;
+   width: 350px;
+}
+
+.textRec{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: 90px
+}
+
+.facebook{
+  width: 15%;
+}
+
+.instagram{
+  width: 15%;
+}
+
+.MasterCard{
+  width: 20%;
+}
+
+.visa{
+  width: 20%;
+}
+
+.Meest{
+  width: 20%;
+}
+
+.NP{
+  width: 20%;
+}
+
+.UP{
+  width: 20%;
+}
+
+.Justin{
+  width: 20%;
+}
+
+/*middle little big (nav с поиском)*/
+.middle{
+  width: 5%;
+}
+
+.big{
+  width: 10%;
+}
+
+.www{
+  height: 78px;
+}
+/*product.html*/
+.paint{
+  height: 350px;
+  width: 350px;
+}
+
+.oplata{
+  margin-top: 20px;
+}
+
+.GPanelZ{
+  background-color: #e0e0e0;
+}
+
+.TPC{
+  width: 30%;
+  margin-left: 115px;
+}
+
+.comments{
+  width: 970px;
+}
+
+.In{
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+/*signup.html*/
+.BBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form{
+  width: 300px;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px #ccc;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.form_group{
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.form_button{
+  height: 35px;
+  width: 85px;
+  padding: 10px 20;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0071f0;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form_title{
+  text-align: center;
+}
