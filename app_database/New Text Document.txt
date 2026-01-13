@@ -1,0 +1,6 @@
+powershell
+cd D:\IT\project\app_database
+py .\app.py
+2
+database
+qwerty
